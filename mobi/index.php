@@ -113,14 +113,14 @@
                 </p>
             </fieldset>
         </form>
-        <div data-role="footer" data-position="fixed">
+        <div data-role="footer">
             <p>(c) <?php echo date('Y');?> - <a href="http://rogeriopradoj.com">rogeriopradoj.com</a> - <a href="http://<?php echo $_SERVER['HTTP_HOST'];  ?>/contato/">Contato</a></p>
         </div>
     </div>
 
 
     <div data-role="page" data-theme="b" id="output">
-        <div data-role="header" data-position="fixed">
+        <div data-role="header">
           <a href="#input" data-rel="back">Voltar</a>
           <h1>IMC para a Tati</h1>
         </div>
@@ -128,7 +128,7 @@
             <p id="result"></p>
             <a href="#tabelaImc" data-rel="dialog" data-role="button">Ver tabela IMC</a>
         </div>
-        <div data-role="footer" data-position="fixed">
+        <div data-role="footer">
             <p>(c) <?php echo date('Y');?> - <a href="http://rogeriopradoj.com">rogeriopradoj.com</a> - <a href="http://<?php echo $_SERVER['HTTP_HOST'];  ?>/contato/">Contato</a></p>
         </div>
     </div>
