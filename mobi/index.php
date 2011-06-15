@@ -109,7 +109,7 @@
                 <label for="peso">Peso em quilos(protegido)</label><br />
                     <input id="peso" type="password" autofocus="autofocus" placeholder="Ex.: 200"><br />
                 <p>
-                    <a href="#output" id="calcular">Calcular IMC</a><br />
+                    <a href="#output" id="calcular" data-role="button">Calcular IMC</a><br />
                 </p>
             </fieldset>
         </form>
@@ -126,7 +126,8 @@
         </div>
         <div data-role="content">
             <p id="result"></p>
-            <a href="#tabelaImc" data-rel="dialog" data-role="button">Ver tabela IMC</a>
+            <a href="#tabelaImc" data-rel="dialog" data-role="button" data-theme="a">Ver tabela IMC</a>
+            <a href="#input" data-rel="back" data-role="button">Voltar</a>
         </div>
         <div data-role="footer">
             <p>(c) <?php echo date('Y');?> - <a href="http://rogeriopradoj.com">rogeriopradoj.com</a> - <a href="http://<?php echo $_SERVER['HTTP_HOST'];  ?>/contato/">Contato</a></p>
