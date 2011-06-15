@@ -9,7 +9,6 @@ jquery.mobile/jquery.mobile.min.css
 #JS
 ../js/jquery.min.js
 jquery.mobile/jquery.mobile.min.js
-../js/jquery.maskMoney.js
 ../js/jquery.global.js
 ../js/jquery.glob.pt-BR.js
 #IMAGE
@@ -20,11 +19,11 @@ jquery.mobile/images/icons-18-white.png
 jquery.mobile/images/icons-36-black.png
 jquery.mobile/images/icons-36-white.png
 #FAVICON
-../calculator.ico
-../calculator-128.png
+../Calculator.ico
+../Calculator-64.png
 NETWORK:
 *
 #
 #
 #
-#s
+#

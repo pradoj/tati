@@ -26,7 +26,7 @@
 ?>
 <!DOCTYPE html>
 <!--<html>-->
-<html manifest="cache.appcache-">
+<html manifest="cache.appcache">
   <head>
     <meta charset="utf-8">
     <title>IMC para a Tati</title>
