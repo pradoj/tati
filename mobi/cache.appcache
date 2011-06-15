@@ -7,10 +7,10 @@ index.php
 #CSS
 jquery.mobile/jquery.mobile.min.css
 #JS
-../js/jquery.min.js
+../js/libs/jquery-1.5.1.min.js
 jquery.mobile/jquery.mobile.min.js
-../js/jquery.global.js
-../js/jquery.glob.pt-BR.js
+../js/libs/jquery.global.js
+../js/libs/jquery.glob.pt-BR.js
 #IMAGE
 jquery.mobile/images/ajax-loader.png
 jquery.mobile/images/icon-search-black.png
