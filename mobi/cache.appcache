@@ -2,7 +2,6 @@ CACHE MANIFEST
 
 CACHE:
 #HTML
-/
 index.php
 #CSS
 jquery.mobile/jquery.mobile.min.css
