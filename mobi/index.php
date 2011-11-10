@@ -114,9 +114,9 @@
         <form data-role="content">
             <fieldset>
                 <label for="altura">Altura em metros?</label><br />
-                    <input id="altura" type="number" autofocus="autofocus" placeholder="Ex.: 1,50"><br />
+                    <input id="altura" type="number" placeholder="Ex.: 1,50"><br />
                 <label for="peso">Peso em quilos(protegido)</label><br />
-                    <input id="peso" type="password" autofocus="autofocus" placeholder="Ex.: 200"><br />
+                    <input id="peso" type="password" placeholder="Ex.: 200"><br />
                 <p>
                     <a href="#output" id="calcular" data-role="button">Calcular IMC</a><br />
                 </p>
