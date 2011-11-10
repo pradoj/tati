@@ -114,7 +114,7 @@
         <form data-role="content">
             <fieldset>
                 <label for="altura">Altura em metros?</label><br />
-                    <input id="altura" type="text" autofocus="autofocus" placeholder="Ex.: 1,50"><br />
+                    <input id="altura" type="number" autofocus="autofocus" placeholder="Ex.: 1,50"><br />
                 <label for="peso">Peso em quilos(protegido)</label><br />
                     <input id="peso" type="password" autofocus="autofocus" placeholder="Ex.: 200"><br />
                 <p>
