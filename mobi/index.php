@@ -125,6 +125,26 @@
         <div data-role="footer">
             <p>(c) <?php echo date('Y');?> - <a href="http://pradoj.com">pradoj.com</a> - <a href="http://<?php echo $_SERVER['HTTP_HOST'];  ?>/contato/">Contato</a></p>
         </div>
+        <script type="text/javascript">
+	bb_bid = "1639816";
+	bb_lang = "pt-BR";
+	bb_keywords = "imc, peso, emagrecer, calculadora";
+	bb_name = "custom";
+	bb_limit = "4";
+	bb_format = "bbe";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+        <script type="text/javascript"><!--
+google_ad_client = "ca-pub-7518068256340054";
+/* tati */
+google_ad_slot = "2725484457";
+google_ad_width = 125;
+google_ad_height = 125;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
     </div>
 
 
