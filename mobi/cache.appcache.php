@@ -1,5 +1,8 @@
+<?php
+header('Content-Type: text/cache-manifest');
+?>
 CACHE MANIFEST
-#2011-11-10 05h17
+#2011-11-10 05h33
 
 CACHE:
 #HTML
@@ -23,6 +26,7 @@ jquery.mobile/images/icons-36-white.png
 ../Calculator-64.png
 NETWORK:
 *
+#
 #
 #
 #
