@@ -2,7 +2,7 @@
 header('Content-Type: text/cache-manifest');
 ?>
 CACHE MANIFEST
-#2011-11-10 05h47
+#2011-11-10 05h48
 
 CACHE:
 #HTML
@@ -32,3 +32,6 @@ NETWORK:
 #
 #
 #
+<?php
+echo "# Hash: " . md5_file('index.php') . "\n";
+?>
