@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#2011-11-10
+#2011-11-13 01h24
 
 CACHE:
 #HTML
@@ -22,4 +22,4 @@ jquery.mobile/images/icons-36-white.png
 ../Calculator.ico
 ../Calculator-64.png
 NETWORK:
-*
+#*

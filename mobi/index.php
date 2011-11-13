@@ -47,6 +47,9 @@
     <link rel="stylesheet" href="jquery.mobile/jquery.mobile.min.css" />
     <style type="text/css">
     </style>
+    <script type="text/javascript">
+		window.google_analytics_uacct = "UA-23860787-3";
+	</script>
     <script type="text/javascript" src="../js/libs/jquery-1.5.1.min.js"></script>
     <script src="jquery.mobile/jquery.mobile.min.js"></script>
     <script src="../js/libs/jquery.global.js"></script>

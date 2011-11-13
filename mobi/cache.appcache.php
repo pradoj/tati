@@ -2,7 +2,7 @@
 header('Content-Type: text/cache-manifest');
 ?>
 CACHE MANIFEST
-#2011-11-10 05h48
+#2011-11-13 01h25
 
 CACHE:
 #HTML
@@ -25,13 +25,7 @@ jquery.mobile/images/icons-36-white.png
 ../Calculator.ico
 ../Calculator-64.png
 NETWORK:
-*
-#
-#
-#
-#
-#
-#
+#*
 <?php
 echo "# Hash: " . md5_file('index.php') . "\n";
 ?>
