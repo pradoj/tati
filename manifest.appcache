@@ -1,0 +1,25 @@
+CACHE MANIFEST
+#2017-03-06 12h15
+
+CACHE:
+#HTML
+index.html
+#CSS
+js/jquery.mobile/jquery.mobile.min.css
+#JS
+js/libs/jquery-1.5.1.min.js
+js/jquery.mobile/jquery.mobile.min.js
+js/libs/jquery.global.js
+js/libs/jquery.glob.pt-BR.js
+#IMAGE
+js/jquery.mobile/images/ajax-loader.png
+js/jquery.mobile/images/icon-search-black.png
+js/jquery.mobile/images/icons-18-black.png
+js/jquery.mobile/images/icons-18-white.png
+js/jquery.mobile/images/icons-36-black.png
+js/jquery.mobile/images/icons-36-white.png
+#FAVICON
+Calculator.ico
+Calculator-64.png
+NETWORK:
+*
