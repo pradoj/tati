@@ -15,7 +15,7 @@
     }
     </script>
 
-    <title>IMC para a Tati</title>
+    <title>IMC para a Tati - PradoJ.com</title>
     
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -28,59 +28,9 @@
     <script src="js/jquery.mobile/jquery.mobile.min.js"></script>
     <script src="js/libs/jquery.global.js"></script>
     <script src="js/libs/jquery.glob.pt-BR.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            var classificaImc = function(imc) {
-                if ( imc < 18.5) {
-                    return 'Subnutrição';
-                } else if ( 18.5 <= imc && imc < 25 ) {
-                    return 'Peso saudável';
-                } else if ( 25 <= imc && imc < 30 ) {
-                    return 'Sobrepeso';
-                } else if ( 30 <= imc && imc < 35 ) {
-                    return 'Obesidade grau 1';
-                } else if ( 35 <= imc && imc < 40 ) {
-                    return 'Obesidade grau 2';
-                } else if ( 40 <= imc ) {
-                    return 'Obesidade grau 3';
-                }
 
-
-            }
-            $('#acao').focus();
-            $("form").bind("submit", function(event) {
-                event.preventDefault();
-            });
-            $.global.preferCulture("pt-BR");
-            //console.log('teste');
-            $("#calcular").click(function(event){
-                var altura = $.global.parseFloat($("#altura").val());
-                var peso   = $.global.parseFloat($("#peso").val());
-                var resultado = peso / (altura * altura);
-                console.log(resultado);
-                $("#result").html(
-                    '<table>'
-                    + '<tr>'
-                        + '<th>' + 'Altura' + '</th>'
-                        + '<td>' + jQuery.global.format(altura, 'n2') + '</td>'
-                    + '</tr>'
-                    + '<tr>'
-                        + '<th>' + 'Peso' + '</th>'
-                        + '<td>' + '***' + '</td>'
-                    + '</tr>'
-                    + '<tr>'
-                        + '<th>' + 'IMC' + '</th>'
-                        + '<td>' + jQuery.global.format(resultado, "n2") + '</td>'
-                    + '</tr>'
-                    + '<tr>'
-                        + '<th>' + 'Classificação' + '</th>'
-                        + '<td>' + classificaImc(resultado) + '</td>'
-                    + '</tr>'
-                    + '</table>'
-                );
-            });
-        });
-    </script>
+    <script src="js/script.js"></script>
+    
   </head>
   <body>
      <div data-role="page" data-theme="b" id="input">
